@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>SAMPLE FORM</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role:</label>
+        <div>
+          <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email:</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Date:</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus">Bonus:</label>
+        <div>
+            <input type="number" name="myNumber" id="bonus">
+        </div>
+        <br>
+        <label for="eligible">Eligibility</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligibile">
+        </div>
+        <br>
+        <label for="gender"></label>
+        <div>
+         Gender: Male <input type="radio" name="myGender" id="gender">Female <input type="radio" name="myGender" id="gender">Other <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <div>
+            <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <label for="car">Car</label>
+        <div>
+            <select name="mycar" id="car"
+            <option value="Maruti">Maruti</option>
+            <option value="bmw">BMW</option>
+            <option value="ferari">Ferari</option>
+        </div>
+        <br>
+        <div>
+            <label for="submit">Submit</label>
+            <input type="submit" value="Submit Now">
+            <label for="reset">Reset</label>
+            <input type="reset" value="Reset Now">
+            </div>
+    </form>
+</body>
+</html>
